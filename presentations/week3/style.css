@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Pontano+Sans');
+/* Eric Meyer CSS Reset begins*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Eric Meyer CSS Reset ends */
+
+header{
+  text-align: left;
+  font-size: 90px;
+  max-width: 300px;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  padding-top: 310px;
+  padding-bottom: 15px;
+}
+
+h2{
+  font-size: 30px;
+  text-transform: lowercase;
+  font-family: "Pontano Sans";
+  padding-bottom: 80px;
+}
+
+header, h2{
+  margin-left: 20px;
+}
+
+.mainDiv{
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+img{
+  height: 800px;
+  width: 650px;
+  float: right;
+  margin-top: -800px;
+}
+
+.text{
+  font-family: "Pontano Sans";
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+#byline{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#first{
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.list{
+  background-color: RGB(230,230,230);
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+li{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#conclusion{
+  border-top: solid;
+  border-width: 1px;
+}
+
+strong{
+  font-weight: bold;
+}

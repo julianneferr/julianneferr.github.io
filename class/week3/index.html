@@ -1,106 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Julianne | Week 3 Portfolio</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Julianne | Week 3 Portfolio</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style media="screen">
-      .height1{
-        height: 60px;
-      }
+  <style media="screen">
+    .height1 {
+      height: 100px;
+    }
 
-      .height2{
-        height: 400px;
-      }
-    </style>
+    .height2 {
+      height: 340px;
+    }
 
-  </head>
-  <body>
-    <div class="container">
+    .makefitimg{
+      height: 100%;
+      width: 100%;
+    }
 
-      <div class="row">
-        <div class="col-md-12 height1 randomColor">
-        </div>
+    .textaligncenter{
+      text-align: center;
+    }
+
+    .margincenter{
+      display: block;
+      margin: 0 auto;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 height1 ">
+            <p class="text-primary">Our portfolio page example.</p>
+            <p class="text-success">We use this colour for success.</p>
+            <p class="text-danger">We use this colour for danger.</p>
       </div>
-
-      <div class="row">
-        <div class="col-md-12 height2 randomColor">
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-
-        <div class="col-md-3 height1 randomColor">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 height1 randomColor">
-        </div>
-      </div>
-
-
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
+    <div class="row">
+      <div class="col-md-12 height2">
+        <p class="bg-primary">Primary background.</p>
+        <p class="bg-success">Success background.</p>
+        <p class="bg-info">Info background.</p>
+        <p class="bg-warning">Warning background.</p>
+        <p class="bg-danger">Danger background.</p>
+      </div>
+    </div>
 
+
+    <div class="row">
+      <div class="col-md-3 height1">
+        <img class="makefitimg" src="img/food1.png" alt="Food1">
+      </div>
+
+      <div class="col-md-3 height1">
+        <img class="makefitimg" src="img/food2.jpg" alt="Food2">
+      </div>
+
+      <div class="col-md-3 height1">
+          <img class="makefitimg" src="img/food3.jpg" alt="Food3">
+      </div>
+
+      <div class="col-md-3 height1">
+        <img class="makefitimg" src="img/food4.jpg" alt="Food4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 height1 textaligncenter">
+        <img src="img/food5.png" alt="Food5">
+      </div>
+
+      <div class="col-md-3 height1">
+        <img class="margincenter" src="img/food6.jpg" alt="Food6">
+      </div>
+
+      <div class="col-md-3 height1">
+          <img class="margincenter" src="img/food7.jpg" alt="Food7">
+      </div>
+
+      <div class="col-md-3 height1">
+          <img class="margincenter" src="img/food8.jpg" alt="Food8">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 height1 randomColor">
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
     //when the document is loaded
-      $(document).ready(function() {
-        //this functio gets a random colour between 0 and 255
-        function getRandomColor() {
-          return Math.floor(Math.random() * 255);
-        }
+    $(document).ready(function() {
+      //this functio gets a random colour between 0 and 255
+      function getRandomColor() {
+        return Math.floor(Math.random() * 255);
+      }
 
-        //get all the elements (divs) with the class "random colour"
-        var randomColor = $(".randomColor");
+      //get all the elements (divs) with the class "random colour"
+      var randomColor = $(".randomColor");
 
-        //loop through all elements
-        //for each element chnage the css background-colour to RGB + three random colours
-        $.each(randomColor, function(index, item) {
-          $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
-        })
-
+      //loop through all elements
+      //for each element chnage the css background-colour to RGB + three random colours
+      $.each(randomColor, function(index, item) {
+        $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
       })
-    </script>
-  </body>
+
+    })
+  </script>
+</body>
+
 </html>
