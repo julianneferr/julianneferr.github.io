@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Class 7</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Candal|Roboto');
+    .height1{
+      height: 70px;
+    }
+
+    .height2{
+      height: 620px;
+    }
+
+    .height3{
+      height: 130px;
+    }
+
+    .logo{
+      height: 130px;
+      width: auto;
+    }
+
+    .flexSpaceAround {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    ul li {
+      list-style: none;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: black;
+      font-family: "Roboto"
+    }
+
+    a{
+      color: black;
+    }
+
+    ul li a,
+    ul li a:hover {
+      text-decoration: none;
+    }
+
+    .ad{
+      height: 620px;
+      width: auto;
+      ;
+    }
+
+    .title{
+      text-transform: uppercase;
+      font-size: 30px;
+      padding-top: 10px;
+      font-family: "Candal"
+
+    }
+
+    .footer{
+      padding-top: 40px;
+      font-family: "Roboto"
+    }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 height3">
+          <img class="logo" src="img/nhl-logo.jpg"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 height1">
+          <ul class="flexSpaceAround nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Rankings</a></li>
+            <li><a href="#">Schedule</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 height1">
+          <p class="title">Wild Card</p>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-md-8 height2 output">
+        </div>
+
+        <div class="col-md-4 height2">
+          <img class="ad" src="img/ad.jpg"/>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 height1">
+          <p class="footer">&copy; National Hockey League</p>
+      </div>
+    </div>
+
+      </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+    //when the document is loaded
+      $(document).ready(function() {
+        //this functio gets a random colour between 0 and 255
+        function getRandomColor() {
+          return Math.floor(Math.random() * 255);
+        }
+
+        //get all the elements (divs) with the class "random colour"
+        var randomColor = $(".randomColor");
+
+        //loop through all elements
+        //for each element chnage the css background-colour to RGB + three random colours
+        $.each(randomColor, function(index, item) {
+          $(this).css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
+        })
+
+      })
+    </script>
+
+    <script>
+      var nhl =
+      [
+      {
+        "logo":"img/NJ.png",
+        "team":"New Jersey",
+        "gp":"62",
+        "win":"32",
+        "loss":"22",
+        "overtime":"8",
+        "points":"72",
+        "row":"28",
+      },
+      {
+        "logo":"img/CLB.png",
+        "team":"Columbus",
+        "gp":"62",
+        "win":"31",
+        "loss":"26",
+        "overtime":"5",
+        "points":"67",
+        "row":"25",
+    },
+    {
+      "logo":"img/NYI.png",
+      "team":"NY Islanders",
+      "gp":"63",
+      "win":"29",
+      "loss":"27",
+      "overtime":"7",
+      "points":"65",
+      "row":"26",
+    },
+    {
+      "logo":"img/CH.png",
+      "team":"Carolina",
+      "gp":"62",
+      "win":"27",
+      "loss":"25",
+      "overtime":"10",
+      "points":"64",
+      "row":"24",
+      },
+    {
+      "logo":"img/FP.png",
+      "team":"Florida",
+      "gp":"59",
+      "win":"28",
+      "loss":"25",
+      "overtime":"6",
+      "points":"62",
+      "row":"26",
+    },
+
+    ];
+
+    $(document).ready(function(){
+    //$(".output").html("test output");
+      var html="<table class='table table-striped table-hover'>"+
+      "<tr>"+
+      "<th>LOGO</th>"+
+      "<th>TEAM</th>"+
+      "<th>GP</th>"+
+      "<th>W</th>"+
+      "<th>L</th>"+
+      "<th>OT</th>"+
+      "<th>PTS</th>"+
+      "<th>ROW</th>"+
+      "</tr>";
+
+    //here is the loop of the array 'cats'
+
+    for(var i=0;i<nhl.length;i++){
+      console.log("i "+i);
+      html +=
+      "<tr>"+
+      "<td><img src='"+nhl[i].logo+"'/></td>"+
+      "<td>"+nhl[i].team+"</td>"+
+      "<td>"+nhl[i].gp+"</td>"+
+      "<td>"+nhl[i].win+"</td>"+
+      "<td>"+nhl[i].loss+"</td>"+
+      "<td>"+nhl[i].overtime+"</td>"+
+      "<td>"+nhl[i].points+"</td>"+
+      "<td>"+nhl[i].row+"</td>"+
+      "</tr>";
+    }
+
+    html += "</table>";
+    $(".output").html(html);
+
+    });
+
+    </script>
+
+  </body>
+</html>
