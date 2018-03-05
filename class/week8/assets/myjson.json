@@ -1,11 +1,11 @@
 [
   {
-  "wash":"dark",
-  "hasRips":true,
-  "rise":"high",
-  "fit":"tight",
-  "length":"short",
-  "material":"cotton",
+    "wash":"dark",
+    "hasRips":true,
+    "rise":"high",
+    "fit":"tight",
+    "length":"short",
+    "material":"cotton",
   },
   {
     "wash":"light",
