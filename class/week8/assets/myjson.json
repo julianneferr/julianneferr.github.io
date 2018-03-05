@@ -1,0 +1,45 @@
+[
+  {
+  "wash":"dark",
+  "hasRips":true,
+  "rise":"high",
+  "fit":"tight",
+  "length":"short",
+  "material":"cotton",
+  },
+  {
+    "wash":"light",
+    "hasRips":true,
+    "rise":"medium",
+    "fit":"loose",
+    "length":"long",
+    "material":"cotton",
+  },
+  {
+    "wash":"dark",
+    "hasRips":false,
+    "rise":"low",
+    "fit":"tight",
+    "length":"regular",
+    "material":"Polyester",
+  },
+  {
+    "wash":"acid wash",
+    "hasRips":true,
+    "rise":"low",
+    "fit":"loose",
+    "length":"long",
+    "material":"cotton",
+
+  },
+  {
+    "wash":"black",
+    "hasRips":false,
+    "rise":"very high",
+    "fit":"tight",
+    "length":"regular",
+    "material":"cotton",
+
+  }
+
+]
