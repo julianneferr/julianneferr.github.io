@@ -1,0 +1,40 @@
+{
+  "Sheet1": {
+    "1": {
+      "itemId": 1,
+      "julFerAndTitle": "White Sneaker",
+      "julFerPrice": 50,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/sneakers.jpg"
+    },
+    "2": {
+      "itemId": 2,
+      "julFerAndTitle": "Red High Heel",
+      "julFerPrice": 70,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/red heel.jpg"
+    },
+    "3": {
+      "itemId": 3,
+      "julFerAndTitle": "Black Knee High Boots",
+      "julFerPrice": 80,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/highboot.jpg"
+    },
+    "4": {
+      "itemId": 4,
+      "julFerAndTitle": "Beige Chunky Heel",
+      "julFerPrice": 50,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/heel.jpg"
+    },
+    "5": {
+      "itemId": 5,
+      "julFerAndTitle": "Tan Short Boot",
+      "julFerPrice": 60,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/short boots.jpg"
+    },
+    "6": {
+      "itemId": 6,
+      "julFerAndTitle": "Black Loafer",
+      "julFerPrice": 40,
+      "julFerImgUrl": "julianneferr.github.io/class/week11/img/flat.jpg"
+    }
+  }
+}
