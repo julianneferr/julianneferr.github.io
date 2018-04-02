@@ -166,10 +166,10 @@ var spriteImages = [{
     "name": "lightbulb"
   },
   {
-    "spriteMapUrl": "images/lightbulb.png",
+    "spriteMapUrl": "images/ARTZU.png",
     "numFrames": 7,
     "width": 2100,
-    "height": 600,
+    "height": 694,
     "name": "nicole"
   }
 ];
