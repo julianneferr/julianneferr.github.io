@@ -171,7 +171,25 @@ var spriteImages = [{
     "width": 2100,
     "height": 694,
     "name": "nicole"
-  }
+  },
+
+{
+      "spriteMapUrl": "https://bill-curne.github.io/class/animation/images/heisenberg.png",
+    "numFrames": 10,
+    "width": 1300,
+    "height": 130,
+    "name": "heisenberg"
+  },
+
+{
+    "spriteMapUrl": "https://chell-github.github.io/class/week12/images/masae.png",
+    "numFrames": 29,
+    "width": 2900,
+    "height": 100,
+    "name": "masae"
+  },
+
+
 ];
 var animations = []; //an array to hold the currently existing sprite obects
 var maxAnimations = spriteImages.length; //how many animations we want on the screen at any one time
